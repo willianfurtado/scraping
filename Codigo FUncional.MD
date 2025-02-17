@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-export default function App(){
+export default function App() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -23,7 +23,6 @@ export default function App(){
 
         const dataPrice = await response.json();
         setData(dataPrice.values || []); // Pegamos apenas os valores da planilha
-        console.log(dataPrice);
       } catch (error) {
         setError(error.message);
       } finally {
@@ -43,9 +42,9 @@ export default function App(){
         <Text style={{ color: 'red' }}>Erro: {error}</Text>
       ) : (
         <ScrollView>
-          {data.map((row: string[], index: number) => (
+          {data.map((row, index) => (
             <View key={index} style={styles.row}>
-              {row.map((cell: string, cellIndex: number) => (
+              {row.map((cell, cellIndex) => (
                 <Text key={cellIndex} style={styles.cell}>{cell}</Text>
               ))}
             </View>
@@ -54,7 +53,7 @@ export default function App(){
       )}
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
