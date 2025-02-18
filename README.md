@@ -33,7 +33,7 @@ Já o Google Sheets é um programa de planilhas incluído como parte do pacote g
             let valor = null;
 
             if (commodity.tipo === 'dolar') {
-                // Regex para capturar "R$ 5,76" da div <div class="valor vermelho">
+                //Regex para o dólar
                 let regexDolar = /<div class="valor (?:verde|vermelho)">R\$ ([\d.,]+)<\/div>/;
                 let match = html.match(regexDolar);
                 if (match) valor = "R$ " + match[1];
