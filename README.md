@@ -68,5 +68,12 @@
     -> Após o Script realizar o Scraping, ele salva os valores na planilha no intervalo de células definidos na planilha.
     -> A partir daí, o app fará uma requisição para a planilha que foi publicada na web.
 
+## Retorno obtido
+
+No terminal obtive este retorno: 
+![Resultado obtido no terminal](assets/cotações.jpg)
+
+No app obtive este retorno: 
+![Resultado obtido no app React-Native](assets/app.jpg)
 
     
