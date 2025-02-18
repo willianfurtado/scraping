@@ -1,8 +1,8 @@
 # App que retorna cotações usando React-Native + Google Scripts + Google Sheets
 
 ## Descrição 
-    -> Google Apps Script é uma plataforma de script desenvolvida pelo Google para desenvolvimento de aplicativos leves na plataforma Google Workspace.
-    -> O Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
+Google Apps Script é uma plataforma de script desenvolvida pelo Google para desenvolvimento de aplicativos leves na plataforma Google Workspace.
+O Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
 
 ## Google Sheets 
     -> Passo 1: Criar uma nova planilha no Google planilhas 
@@ -71,9 +71,11 @@
 ## Retorno obtido
 
 No terminal obtive este retorno: 
+
 ![Resultado obtido no terminal](assets/cotações.jpg)
 
-No app obtive este retorno: 
+No app, pensando um pouco em como mostrar algo mais visual pra melhor validação do componente, obtive este retorno: 
+
 ![Resultado obtido no app React-Native](assets/app.jpg)
 
     
