@@ -85,5 +85,5 @@ A partir daí, o app fará uma requisição para a planilha que foi publicada na
 
 - Planilha que contém as cotações
 
-![Resultado obtido no app React-Native](assets/planilha.jpg)
+![Resultado obtido no app React-Native](assets/planilha.png)
     
