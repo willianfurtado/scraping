@@ -60,22 +60,26 @@ Já o Google Sheets é um programa de planilhas incluído como parte do pacote g
 ## Como publicar a planilha na Web?
 -> No Google Planilhas, ir em Compartilhar->Publicar na Web
 
+
 ## Link da planilha que contém os valores das cotações:
 Link: https://docs.google.com/spreadsheets/d/1wDbk4BzF7JhCUHV6t3mcOySLpdWnpR9jTSWcyTSraL0/edit?gid=0#gid=0
 
 Link da planilha que foi publicada na web com formato .csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vS7W25UDxqkND280vZvrLYntplr2i5o46rtEvBdzPm43zFQa4tz_Invtfn_X152_-qxei_J6sb6C5n9/pub?output=csv
 
+
 ## Fluxo
 Após o Script realizar o Scraping, ele salva os valores na planilha no intervalo de células definidos na planilha.
 A partir daí, o app fará uma requisição para a planilha que foi publicada na web.
 
+
 ## Retorno obtido
 
-No terminal obtive este retorno: 
+- No terminal obtive este retorno: 
 
 ![Resultado obtido no terminal](assets/cotações.jpg)
 
-No app, pensando um pouco em como mostrar algo mais visual pra melhor validação do componente, obtive este retorno: 
+
+- No app, pensando um pouco em como mostrar algo mais visual pra melhor validação do componente, obtive este retorno: 
 
 ![Resultado obtido no app React-Native](assets/app.jpg)
 
