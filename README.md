@@ -2,15 +2,15 @@
 
 ## Descrição 
 Google Apps Script é uma plataforma de script desenvolvida pelo Google para desenvolvimento de aplicativos leves na plataforma Google Workspace.
-O Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
+Já o Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
 
 ## Google Sheets 
-Passo 1: Criar uma nova planilha no Google planilhas 
-Passo 2: Ir em Extensões>Apps Script
+->Passo 1: Criar uma nova planilha no Google Planilhas 
+->Passo 2: Ir em Extensões>Apps Script
 ->Passo 3: Ir para o projeto do Apps Script que será criado automaticamente
 
 ## Apps Scripts
-Passo 1: Criar o código que fará o Scraping das cotações 
+->Passo 1: Criar o código que fará o Scraping das cotações 
 
 ## Código do Apps Script usado pra fazer o Scraping:
 
@@ -58,10 +58,11 @@ Passo 1: Criar o código que fará o Scraping das cotações
         }
 ```
 ## Como publicar a planilha na Web?
-No Google Planilhas, ir em Compartilhar->Publicar na Web
+-> No Google Planilhas, ir em Compartilhar->Publicar na Web
 
 ## Link da planilha que contém os valores das cotações:
 Link: https://docs.google.com/spreadsheets/d/1wDbk4BzF7JhCUHV6t3mcOySLpdWnpR9jTSWcyTSraL0/edit?gid=0#gid=0
+
 Link da planilha que foi publicada na web com formato .csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vS7W25UDxqkND280vZvrLYntplr2i5o46rtEvBdzPm43zFQa4tz_Invtfn_X152_-qxei_J6sb6C5n9/pub?output=csv
 
 ## Fluxo
