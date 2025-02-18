@@ -1,8 +1,8 @@
 # App que retorna cotações usando React-Native + Google Scripts + Google Sheets
 
 ## Descrição 
-    O Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
-    O Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
+Google Apps Script é uma plataforma de script desenvolvida pelo Google para desenvolvimento de aplicativos leves na plataforma Google Workspace.
+O Google Sheets é um programa de planilhas incluído como parte do pacote gratuito de Editores de Documentos Google baseado na Web oferecido pelo Google. 
 
 ## Google Sheets 
     -> Passo 1: Criar uma nova planilha no Google planilhas 
